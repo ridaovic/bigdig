@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Light" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="card">@drawable/bg_card_light</item>
+        <item name="android:actionBarStyle">@style/LightActionBar</item>
+    </style>
+
+    <style name="Theme.Dark" parent="android:Theme.Holo">
+        <item name="card">@drawable/bg_card_dark</item>
+        <item name="android:actionBarStyle">@style/DarkActionBar</item>
+    </style>
+
+    <style name="LightActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/light_action_bar_red</item>
+    </style>
+
+    <style name="DarkActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@color/dark_action_bar_red</item>
+    </style>
+
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:lineSpacingExtra">17sp</item>
+        <item name="android:background">#faa43f</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="CodeLogo" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingExtra">17sp</item>
+        <item name="android:background">#faa43f</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    
+    <style name="CodeFontSub" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#00809d</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    
+      
+    </style>
+
+</resources>
